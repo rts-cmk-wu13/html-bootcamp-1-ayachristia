@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>struktur og 20 html elementer</title>
+  </head>
+  <body>
+    <header>
+      <section class="topHeader">
+        <div class="logo">LOGO</div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+      <input
+        type="search"
+        id="searchHeader"
+        name="search"
+        placeholder="Search for something specific"
+      />
+    </header>
+    <main>
+      <div class="hero_image">
+        <div class="hero_text">
+          <h1>I am Aya Christiansen</h1>
+          <p>Im a student of Front end Web</p>
+          <button>Hire Me!</button>
+        </div>
+      </div>
+
+      <section class="explore">
+        <section class="explore_left">
+          <h2>Get to know me, explore my page:</h2>
+          <p>
+            On this page you will find... Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quibusdam, perferendis velit? Ex sunt, voluptatum
+            corporis autem labore adipisci cupiditate ipsum aliquid perferendis
+            atque accusamus incidunt quo ab minus vitae praesentium
+            <span class="dots">...</span>
+            <span class="readMore"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius et
+              esse temporibus quas voluptas eligendi, explicabo, pariatur eaque
+              vero, corrupti quod consequuntur nostrum illum repellat expedita!
+              Possimus maxime et consequuntur!</span
+            >
+          </p>
+          <button class="readBtn">Read More</button>
+        </section>
+        <section class="explore_right">
+          <figure class="portrait">
+            <img
+              src="https://placehold.co/200x300"
+              alt="portrait"
+              class="portrait_img"
+            />
+            <p>portrait</p>
+          </figure>
+        </section>
+      </section>
+
+      <article class="article_js">
+        <header><h1>Join the studen JS course</h1></header>
+
+        <h2>... psst you get 30% discount!</h2>
+        <p>
+          get started... Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Dolorem optio perferendis libero qui debitis aliquam eaque ipsum
+          dicta numquam reiciendis quidem velit obcaecati iste adipisci
+          reprehenderit eligendi, nemo, facere minima.
+        </p>
+        <footer>Company: Udemy - <button>Sign Up Now!</button></footer>
+      </article>
+    </main>
+    <footer>
+      <section>
+        <address>HtmlStreet 14, 0000 Www Central</address>
+      </section>
+      <section>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">X</a></li>
+        </ul>
+      </section>
+      <section>
+        <form action="index.html">
+          <h1>Quick contact</h1>
+          <label for="fname">Full name:</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Enter name here..."
+          />
+          <label for="email">Email:</label>
+          <input type="text" id="email" placeholder="Enter email here..." />
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" />
+          <textarea
+            name="formMessage"
+            id="formMessage"
+            placeholder="Write your message here..."
+          ></textarea>
+          <input type="submit" name="submit" value="submit" id="submitBtn" />
+        </form>
+      </section>
+    </footer>
+  </body>
+</html>
